@@ -1,12 +1,12 @@
-import { reactive } from "vue"
+import { reactive } from "vue";
 
 const fs = reactive({
-    file: '',
-    openFile (file) {
-        this.file = file
-    }
-})
+  file: "",
+  openFile(file) {
+    this.file = file;
+  },
+});
 
-export default function useFileSystem () {
-    return fs
+export default function useFileSystem() {
+  return fs;
 }

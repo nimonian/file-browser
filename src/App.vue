@@ -1,9 +1,9 @@
 <script setup>
-import FileSystem from './components/FileSystem.vue';
-import documents from './files';
+import FileSystem from "./components/FileSystem.vue";
+import documents from "./files";
 
-import useFileSystem from './composables/fileSystem';
-const fs = useFileSystem()
+import useFileSystem from "./composables/fileSystem";
+const fs = useFileSystem();
 </script>
 
 <template>
